@@ -1,0 +1,23 @@
+pkgbase = qaac
+	pkgdesc = command line AAC/ALAC encoder frontend based on Apple encoder
+	pkgver = 2.68
+	pkgrel = 1
+	url = http://sites.google.com/site/qaacpage
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = p7zip
+	depends = wine
+	noextract = qaac_2.68.zip
+	noextract = QuickTimeInstaller.exe
+	noextract = x32DLLs_20190107.zip
+	options = !strip
+	source = https://sites.google.com/site/qaacpage/cabinet/qaac_2.68.zip
+	source = https://secure-appldnld.apple.com/QuickTime/031-43075-20160107-C0844134-B3CD-11E5-B1C0-43CA8D551951/QuickTimeInstaller.exe
+	source = x32DLLs_20190107.zip
+	sha256sums = 8067826564d182a239a2347b40d52369c4a378b7df7918bd156138bf904168d0
+	sha256sums = 56eff77b029b5f56c47d11fe58878627065dbeacbc3108d50d98a83420152c2b
+	sha256sums = afbe6fff760a169c4144a137403b2036618d67094f2302f3a57650712dd201d9
+
+pkgname = qaac
+
